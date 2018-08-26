@@ -103,6 +103,8 @@ def get_private():
 
 
 os.system(' tvservice -o')
+os.system(' mkdir detections')
+os.system(' mkdir live')
 
 mac = get_mac()
 print (mac)
